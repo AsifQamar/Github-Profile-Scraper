@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: #dcdcdc;
+    line-height: 1.6;
+  }
+  
+  input,
+  button {
+    padding: 12px 15px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #6a0dad;
+    border-radius: 8px;
+    outline: none;
+    background-color: #2a2a3d;
+    color: #dcdcdc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    border-color: #9b59b6;
+    box-shadow: 0 0 8px rgba(155, 89, 182, 0.7);
+  }
+  
+  button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #9b59b6;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  #profile {
+    margin-top: 30px;
+  }
+  
+  .profile {
+    margin-top: 20px;
+    padding: 25px;
+    border: 1px solid #6a0dad;
+    border-radius: 12px;
+    background-color: #2a2a3d;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.4);
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(155, 89, 182, 0.5);
+  }
+  
+  .username {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .username a {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .username a:hover {
+    text-decoration: underline;
+    color: #c39bd3;
+  }
+  
+  @media (max-width: 600px) {
+    input,
+    button {
+      width: 80%;
+      padding: 10px;
+    }
+  
+    .profile {
+      width: 90%;
+    }
+  }
+  
